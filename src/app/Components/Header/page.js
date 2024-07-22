@@ -7,6 +7,8 @@ const header = () => {
 
     <header>
         <div className="flex items-center space-x-6 justify-between p-4 bg-slate-700">
+            <title>Navy</title>
+
             <nav>
                 <ul className="flex items-center space-x-4">
                     <li>

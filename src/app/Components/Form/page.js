@@ -44,7 +44,7 @@ export default function FormMe() {
         onSubmit={handleSubmit}
       >
         <h2 className="grid-rows-2 text-3xl uppercase font-bold text-center">
-          Başvuru Formunu
+          Başvuru Formu
         </h2>
 
         <Image src={MarkaLogo} className='text-center mx-auto' alt="form" width={100} height={70} />
@@ -58,7 +58,7 @@ export default function FormMe() {
         </label>
         <label className="grid font-bold grid-rows-2">
           Yaşınız: (18-60)
-          <input type="number" name="age" min={17} max={60}  placeholder='Write your age..'  className='p-2 border-amber-500' />
+          <input type="number" name="age" min={18} max={60}  placeholder='Write your age..'  className='p-2 border-amber-500' />
         </label>
         <label className="grid font-bold h-fit  grid-rows-1 gap-4">
           Fikirleriniz:

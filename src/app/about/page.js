@@ -5,7 +5,7 @@ export default function AboutPage() {
 
         <section className="text-gray-600 body-font h-screen">
 
-                <h1>MErhabalar ben About</h1>
+                <h1>Merhabalar ben About</h1>
 
         </section>
     );
