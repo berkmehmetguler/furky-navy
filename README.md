@@ -1,7 +1,9 @@
-<p align="center">
-  <img src="./public/furkynav.png" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
-</p>
+<img src="./public/furkynav.png" width="100%"  title="hover text">
+<img src="./public/furkynav1.png" width="100%"  title="hover text">
+<img src="./public/furkynav2.png" width="100%"  title="hover text">
+<img src="./public/furkynav3.png" width="100%"  title="hover text">
+<img src="./public/furkynav4.png" width="100%"  title="hover text">
+
 
 ## Getting Started
 
