@@ -1,5 +1,5 @@
 
-import FormMe from "../Components/Form/page";
+import FormMe from "../Components/Form/Form";
 
 export default function ContactPage() {
   return (

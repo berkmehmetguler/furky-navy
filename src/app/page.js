@@ -1,20 +1,19 @@
-
-
-
+import Feature from "./Components/Features/Feature";
+import Hero from "./Components/Hero/Hero";
+import TopBanner from "./Components/Banner/TopBanner";
+import Conversations from "./Components/Conversations/Conversations";
+import Footer from "./Components/Footer/Footer";
+import Brands from "./Components/Brands/Brands";
 
 export default function Home() {
   return (
-    <main className="h-screen bg-slate-300">
-
-
-      <div className="flex flex-col items-center justify-center">
-        <section className="text-gray-600 body-font h-screen">
-
-
-        </section>
-        </div>
-
-
+    <main className="h-screen ">
+      <TopBanner />
+      <Hero />
+      <Brands/>
+      <Feature />
+      <Conversations/>
+      <Footer />
     </main>
   );
 }
