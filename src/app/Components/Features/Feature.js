@@ -20,7 +20,7 @@ const Feature = () => {
                     FEATURES:
                 </span>
                 <h2 class="text-4xl lg:text-5xl  text-white font-medium tracking-tight mb-16">
-                    Look no further! Furky is here to revolutionize
+                    Look no further! F is here to revolutionize
                 </h2>
                 <div class="flex mb-16 items-start">
                     <div class="mr-4">
@@ -90,7 +90,7 @@ const Feature = () => {
                         Analytics and Insights
                     </h4>
                     <p class="text-lg text-gray-600 tracking-tight">
-                        Gain valuable insights into your users' preferences
+                        Gain valuable insights into your users&apos;s preferences
                     </p>
                     </div>
                 </div>

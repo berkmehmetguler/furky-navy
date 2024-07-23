@@ -120,7 +120,7 @@ const Conversations = () => {
                   </div>
                 </div>
                 <p className="text-xl text-gray-400">
-                  Whether you're a tech guru or a beginner, you'll have your <span className="text-[#53DD81]">AI </span>
+                  Whether you&apos;re a tech guru or a beginner, you&apos;ll have your <span className="text-[#53DD81]">AI </span>
                   chat assistant up
                 </p>
               </div>
@@ -159,7 +159,7 @@ const Conversations = () => {
                   </div>
                 </div>
                 <p className="text-xl text-gray-400">
-                  Gain <span className="text-[#53DD81]">valuable</span> insights into your users' preferences,<span className="text-[#53DD81]"> behavior,</span>
+                  Gain <span className="text-[#53DD81]">valuable</span> insights into your user&apos;s preferences,<span className="text-[#53DD81]"> behavior,</span>
                   and frequently asked questions
                 </p>
               </div>
