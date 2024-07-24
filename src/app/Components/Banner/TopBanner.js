@@ -13,8 +13,8 @@ const TopBanner = () => {
                 </div>
                 <div className="w-auto p-2">
                 <Link className="inline-flex flex-wrap items-center px-5 py-3.5 text-sm text-neutral-50 font-medium bg-gradient-purple-left hover:bg-gradient-purple-left-dark rounded-lg transition duration-300" href="#">
-                    <span className="mr-3 font-medium">Upgrade to Pro</span>
-                    <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span className="mr-3 font-medium bg">Upgrade to Pro</span>
+                    <svg width="16" height="16"  fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.33333 3.33337L14 8.00004M14 8.00004L9.33333 12.6667M14 8.00004L2 8.00004" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </Link>

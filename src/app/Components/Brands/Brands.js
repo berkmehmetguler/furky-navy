@@ -5,11 +5,12 @@ import React from "react";
 const Brands = () => {
   return (
     <>
-      <section className="relative  px-30  bg-gray-900 w-full lg:py-36 bg-body overflow-hidden">
+      <section className="relative  mx-30  bg-gray-900 mx-auto  lg:py-36  overflow-hidden">
+  
         <div className="relative py-10 container mx-auto px-4">
           <div className="absolute  top-0 right-0 -mt-32 -mr-40 w-64 h-64 bg-gradient-to-t from-blue-500 to-darkBlue-900 rounded-full filter blur-4xl"></div>
           <div className="max-w-md hiden md:block lg:max-w-xs xl:max-w-md 2xl:max-w-xl mx-auto text-center">
-            <h2 className="font-heading  text-4xl xl:text-5xl 2xl:text-6xl font-medium text-white tracking-tight mb-8">
+            <h2 className="font-heading  text-4xl lg:text-5xl 2xl:text-6xl font-medium text-white tracking-tight mb-8">
               Boost Your Potencial with FURKY
             </h2>
             <p className="max-w-md mx-auto text-lg text-gray-500 tracking-tight mb-8">
@@ -24,7 +25,6 @@ const Brands = () => {
               <svg
                 width="24"
                 height="24"
-                viewbox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -36,12 +36,15 @@ const Brands = () => {
             </Link>
           </div>
         </div>
-        <div className="relative lg:hidden py-10 max-w-xl mx-auto mt-20">
+
+
+        <div className="relative lg:hidden py-10 max-w-lg mx-auto mt-20">
           <div className="absolute z-10 top-0 left-0 w-full h-40 bg-gradient-to-b from-darkBlue-900 via-darkBlue-900 to-transparent opacity-90"></div>
           <div className="absolute z-10 bottom-0 left-0 w-full h-40 bg-gradient-to-t from-darkBlue-900 via-darkBlue-900 to-transparent opacity-90"></div>
-          <div className="px-8">
-            <div className="flex flex-wrap -mx-4">
-              <div className="w-full xs:w-1/2 xs:-mb-5 px-4">
+          
+          <div className="p-4 m-4">
+            <div className="flex w-full  ">
+              <div className="w-full  px-4">
                 <div className="mb-8 px-6 py-8 rounded-3xl shadow-box-violet overflow-hidden bg-white bg-opacity-10">
                   <Image
                     className="block h-7 mx-auto"
@@ -97,7 +100,8 @@ const Brands = () => {
                   />
                 </div>
               </div>
-              <div className="hidden xs:block w-full xs:w-1/2 px-4 xs:-mt-5">
+
+              <div className="hidden xs:block w-full xs:w-1/2 px-4 ">
                 <div className="mb-8 px-6 py-8 rounded-3xl shadow-box-violet overflow-hidden bg-white bg-opacity-10">
                   <Image
                     className="block h-7 mx-auto"
@@ -157,11 +161,13 @@ const Brands = () => {
           </div>
         </div>
         
+        {/* Left side Brands Logos */}
+        
         <div className="hidden  lg:block absolute top-0 left-0 h-full w-full lg:max-w-sm 2xl:max-w-md px-4">
           <div className="hidden xs:block absolute z-10 top-0 left-0 w-full h-20 lg:h-32 bg-gradient-to-b from-darkBlue-900 via-darkBlue-900 to-transparent opacity-90"></div>
           <div className="hidden xs:block absolute z-10 bottom-0 left-0 w-full h-20 lg:h-32 bg-gradient-to-t from-darkBlue-900 via-darkBlue-900 to-transparent opacity-90"></div>
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full xs:w-1/2 -mb-5 px-4">
+          <div className="flex w-full mx-10  ">
+            <div className="w-full  -my-20 ">
               <div className="mb-8 px-6 py-8 rounded-3xl shadow-box-violet overflow-hidden bg-white bg-opacity-10">
                 <Image
                   className="block h-7 mx-auto"
@@ -275,11 +281,14 @@ const Brands = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block absolute top-0 right-0 h-full w-full lg:max-w-sm 2xl:max-w-md px-8 z-10">
+
+        {/* Right side Brands Logos */}
+
+        <div className="hidden lg:block absolute top-0 right-0 h-full w-full lg:max-w-sm 2xl:max-w-md px-4 z-10">
           <div className="hidden xs:block absolute z-10 top-0 left-0 w-full h-20 lg:h-32 bg-gradient-to-b from-darkBlue-900 via-darkBlue-900 to-transparent opacity-90"></div>
           <div className="hidden xs:block absolute z-10 bottom-0 left-0 w-full h-20 lg:h-32 bg-gradient-to-t from-darkBlue-900 via-darkBlue-900 to-transparent opacity-90"></div>
-          <div className="flex flex-wrap -mx-4 -mb-8">
-            <div className="w-full xs:w-1/2 -mb-5 px-4">
+          <div className="flex w-full -mx-10 -my-5">
+            <div className="w-full my-10 ">
               <div className="mb-8 px-6 py-8 rounded-3xl shadow-box-violet overflow-hidden bg-white bg-opacity-10">
                 <Image
                   className="block h-7 mx-auto"

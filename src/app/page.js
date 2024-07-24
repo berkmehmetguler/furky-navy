@@ -8,8 +8,11 @@ import Brands from "./Components/Brands/Brands";
 export default function Home() {
   return (
     <main className="h-screen ">
+             
       <TopBanner />
+      
       <Hero />
+ 
       <Brands/>
       <Feature />
       <Conversations/>

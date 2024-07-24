@@ -3,7 +3,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <section class="relative bg-[#111827]  lg:px-20 py-12 sm:pt-24 bg-body overflow-hidden">
+    <section class="relative bg-[#111827]  lg:px-20 py-14 pt-24  overflow-hidden">
       <Image
         className="absolute bottom-0 right-0 bg-cover bg-center"
         src="double-line-circle.svg"
@@ -27,7 +27,7 @@ const Feature = () => {
                     <svg
                         width="32"
                         height="32"
-                        viewbox="0 0 32 32"
+                        
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                     >
@@ -51,7 +51,7 @@ const Feature = () => {
                     <svg
                         width="32"
                         height="32"
-                        viewbox="0 0 32 32"
+                        
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                     >
@@ -75,7 +75,7 @@ const Feature = () => {
                     <svg
                         width="32"
                         height="32"
-                        viewbox="0 0 32 32"
+                       
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                     >

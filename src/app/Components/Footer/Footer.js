@@ -4,10 +4,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative px-4  w-full lg:px-20 py-12 sm:pt-24 bg-gray-900 overflow-hidden">
+    <footer className="relative px-4  w-full lg:px-10 py-12 pt-10 bg-gray-900 overflow-hidden">
+      <div className="w-full ">
+        
+ 
+
+      </div>
       <div className="absolute top-0 right-0 -mt-112 -mr-52 w-186 h-186 bg-gradient-to-t from-violet-700 via-darkBlue-900 to-transparent rounded-full filter blur-4xl"></div>
       <Image
-        className="absolute top-0 left-1/2 mt-16 sm:ml-20 md:ml-0 animate-spin"
+        className="absolute -top-10 left-1/2 mt-16 sm:ml-20 md:ml-0 animate-spin"
         src="/blink-star.png"
         alt="Blink Star"
         width="50"
@@ -20,32 +25,35 @@ export default function Footer() {
         width="200"
         height="100"
       />
+      
       <div className="relative container mx-auto w-full px-4">
-        <div className="flex flex-wrap items-end -mx-4 mb-16">
-          <div className="w-full md:w-2/5 px-4 mb-12">
-            <div className="max-w-lg">
-              <Link className="inline-block mb-10" href="#">
+        <div className="flex flex-wrap -mx-4 mb-12">
+
+
+          <div className="w-full lg:w-2/5 p-4 my-10 ">
+            <div className="text-center gap-4 flex flex-col ">
+              <Link className=" text-center" href="/">
                 <Image
-                  className="block w-[155px] h-[200px] mb-3"
+                  className="inline-block  w-[200px] h-[250px]  "
                   src="/rlogo.png"
                   alt="Logo"
                   width="125"
                   height="100"
                 />
               </Link>
-              <h3 className="text-3xl font-medium text-white mb-3">
+              <h3 className="text-4xl font-medium text-white mb-3">
                 Subscribe to our newsletter!
               </h3>
               <div>
-                <span className="block mb-4 text-[#53DD81] text-lg ml-4 text-muted b">
+                <span className="block mb-4 text-[#53DD81] text-2xl ml-4 text-muted b">
                   Email:
                 </span>
-                <div className="inline-flex items-center h-12 py-2 pl-3 pr-2 rounded-full bg-gray-800">
+                <div className="inline-flex items-center w-2/3 h-12 py-2 pl-3 pr-2 rounded-full bg-gray-800">
                   <span>
                     <svg
                       width="24"
                       height="25"
-                      viewbox="0 0 24 25"
+                      
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -56,19 +64,19 @@ export default function Footer() {
                     </svg>
                   </span>
                   <input
-                    className="px-1 lg:text-md w-full placeholder-gray-600 text-gray-200 bg-transparent border-violet-500 focus:border-2 outline-none"
+                    className="px-1 lg:text-md w-full placeholder-gray-600 text-gray-200 bg-transparent  outline-none "
                     type="email"
                     placeholder="elon.musk@x.com"
                   />
                   <button
-                    className="flex md:hidden items-center justify-center w-9 h-9 rounded-full text-black hover:text-white  bg-[#53DD81]"
+                    className="flex  items-center justify-center w-9 h-9 rounded-full text-black hover:text-white  bg-[#53DD81]"
                     type="submit"
                   >
                     <span className="relative p-4 rounded-full  py-2 transition-all ease-in duration-75 bg-[#53DD81]  group-hover:bg-opacity-0">
                       <svg
                         width="20"
                         height="25"
-                        viewbox="0 0 20 21"
+                        
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -80,32 +88,23 @@ export default function Footer() {
                     </span>
                   </button>
 
-                  <button className="hidden rounded-full relative lg:inline-flex items-center justify-center p-0.5  overflow-hidden text-sm font-medium text-gray-900  group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                    <span className="relative p-4 rounded-full hover:text-[#FB2B58] py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-                      <svg
-                        width="25"
-                        height="25"
-                        viewbox="0 0 20 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M17.4333 11.0167C17.3937 10.9144 17.3342 10.8209 17.2583 10.7417L14.7583 8.24167C14.6014 8.08475 14.3886 7.99659 14.1667 7.99659C13.9447 7.99659 13.7319 8.08475 13.575 8.24167C13.4181 8.39859 13.3299 8.61142 13.3299 8.83333C13.3299 9.05525 13.4181 9.26808 13.575 9.425L14.6583 10.5H6.66666C6.44564 10.5 6.23368 10.4122 6.0774 10.2559C5.92112 10.0996 5.83332 9.88768 5.83332 9.66667V6.33333C5.83332 6.11232 5.74553 5.90036 5.58925 5.74408C5.43297 5.5878 5.221 5.5 4.99999 5.5C4.77898 5.5 4.56701 5.5878 4.41073 5.74408C4.25445 5.90036 4.16666 6.11232 4.16666 6.33333V9.66667C4.16666 10.3297 4.43005 10.9656 4.89889 11.4344C5.36773 11.9033 6.00362 12.1667 6.66666 12.1667H14.6583L13.575 13.2417C13.4969 13.3191 13.4349 13.4113 13.3926 13.5129C13.3503 13.6144 13.3285 13.7233 13.3285 13.8333C13.3285 13.9433 13.3503 14.0523 13.3926 14.1538C13.4349 14.2554 13.4969 14.3475 13.575 14.425C13.6525 14.5031 13.7446 14.5651 13.8462 14.6074C13.9477 14.6497 14.0566 14.6715 14.1667 14.6715C14.2767 14.6715 14.3856 14.6497 14.4871 14.6074C14.5887 14.5651 14.6809 14.5031 14.7583 14.425L17.2583 11.925C17.3342 11.8457 17.3937 11.7523 17.4333 11.65C17.5167 11.4471 17.5167 11.2196 17.4333 11.0167Z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </span>
-                  </button>
+          
                 </div>
               </div>
             </div>
           </div>
-          <div className="w-full md:w-3/5 px-4">
-            <div className="flex flex-wrap lg:flex-nowrap -mx-4">
-              <div className="w-auto mb-10 mr-10 xl:mr-24 px-4">
-                <h4 className="text-xl font-medium text-white tracking-tight mb-4">
+
+                {/* Footer Links */}
+
+          <div className="w-full lg:w-3/5   justify-center px-4">
+            <div className=" text-xl text-center gap-12 justify-center flex flex-col content-center lg:flex-row flex-wrap h-full  ">
+              
+              <div className="w-auto lg:mb-10 lg:mr-10   p-8">
+                <h4 className="text-2xl font-medium text-white tracking-tight mb-4">
                   Services
                 </h4>
+
+
                 <ul>
                   <li className="mb-4">
                     <Link
@@ -141,8 +140,8 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="w-auto mb-10 mr-10 xl:mr-24 px-4">
-                <h4 className="text-xl font-medium text-white tracking-tight mb-4">
+              <div className="w-auto lg:mb-10 lg:mr-10 p-8">
+                <h4 className="text-2xl font-medium text-white tracking-tight mb-4">
                   About
                 </h4>
                 <ul>
@@ -180,8 +179,9 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="w-auto px-4">
-                <h4 className="text-xl font-medium text-white tracking-tight mb-4">
+
+              <div className="w-auto text-xl lg:mb-10 lg:mr-10  p-8">
+                <h4 className="text-2xl font-medium text-white tracking-tight mb-4">
                   Help
                 </h4>
                 <ul>
@@ -203,9 +203,13 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
+
+          
             </div>
           </div>
         </div>
+
+
         <div className="pt-10 border-t border-gray-800">
           <div className="md:flex items-center justify-between">
             <div className="mb-6 md:mb-0">
@@ -221,7 +225,7 @@ export default function Footer() {
             </div>
             <div className="text-end">
               <Link
-                className="inline-block mr-10 text-white hover:underline decoration-[#53DD81] tracking-tight"
+                className="inline-block mr-5 text-white hover:underline decoration-[#53DD81] tracking-tight"
                 href="#"
               >
                 Terms & Conditions
@@ -236,6 +240,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      
     </footer>
   );
 }

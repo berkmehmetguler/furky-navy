@@ -40,7 +40,7 @@ const Conversations = () => {
                     <svg
                       width="24"
                       height="24"
-                      viewbox="0 0 24 24"
+                      
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -87,7 +87,7 @@ const Conversations = () => {
                     <svg
                       width="24"
                       height="24"
-                      viewbox="0 0 24 24"
+                      
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -132,7 +132,7 @@ const Conversations = () => {
                     <svg
                       width="24"
                       height="24"
-                      viewbox="0 0 24 24"
+                      
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -153,8 +153,8 @@ const Conversations = () => {
                   </div>
                   <div>
                     <h4 className="text-2xl font-medium text-white leading-tight">
-                      <span className="block">Analytics and</span>
-                      <span>Insights:</span>
+                      <span className="block">Analytics &amp;</span>
+                      <span>Insights</span>
                     </h4>
                   </div>
                 </div>

@@ -6,7 +6,8 @@ import MobileNavbar from "../Header/MobileNavbar";
 
 const Hero = () => {
   return (
-    <section className="relative mx-auto lg:px-20 pb-20 bg-gray-900 overflow-hidden">
+    <section className="relative mx-auto lg:px-20 pb-20 h-screen bg-gray-900 overflow-hidden">
+    
       <Image
         className="hidden lg:flex -translate-x-[350px] absolute inset-0 h-full w-full "
         src="/bgline.svg"

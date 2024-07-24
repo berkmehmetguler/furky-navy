@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="relative px-10 lg:px-15 py-6 flex justify-between items-center  font-bold">
+    <nav className="relative px-10  py-6 flex justify-between items-center  font-bold">
       <Link className="text-white  font-bold leading-none" href="/">
         <Image src="/rlogo.png" alt="Logo" width="140" height="190" />
       </Link>
