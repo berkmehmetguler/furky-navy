@@ -1,8 +1,18 @@
-<img src="./public/furkynav.png" width="100%"  title="hover text">
-<img src="./public/furkynav1.png" width="100%"  title="hover text">
-<img src="./public/furkynav2.png" width="100%"  title="hover text">
-<img src="./public/furkynav3.png" width="100%"  title="hover text">
-<img src="./public/furkynav4.png" width="100%"  title="hover text">
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+<a href="https://furky.netlify.app" style="color:red; " > 🖤 Click to Check the Website. 🐈‍⬛ </a>
+
+
+<a href="https://furky.netlify.app"> <img src="./public/furkynav.png" width="100%"  title="hover text"> </a>
+<a href="https://furky.netlify.app"> <img src="./public/furkynav1.png" width="100%"  title="hover text"> </a>
+<a href="https://furky.netlify.app"> <img src="./public/furkynav2.png" width="100%"  title="hover text"> </a>
+<a href="https://furky.netlify.app"> <img src="./public/furkynav3.png" width="100%"  title="hover text"> </a>
+<a href="https://furky.netlify.app"> <img src="./public/furkynav4.png" width="100%"  title="hover text"> </a>
+
+
+
+
+
 
 
 ## Getting Started
